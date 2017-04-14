@@ -1,0 +1,22 @@
+<div class="instructions">
+    Default Gateway Switcher
+</div>
+
+<fieldset name="switcher" class="primary expanded">
+    <legend>DHCP Server (LAN1)</legend>    
+    <div class="instructions">
+        <span>Switch Gateway between 'Evolution Networks' and 'Spark'</span>
+    </div>
+        <div class="grouped">
+                <div class="group radio-toggles">
+            
+            <label><input type="radio" name="eth0-wan-options" value="dhcp" checked="checked" />Evolution Networks <span class="populate eth0-dhcp-addr">Gateway: <span class="value">192.168.71.1</span></span></label>
+            <div class="nested toggled">
+            <label>Automatically obtain network settings from the Internet Service Provider</label>
+            </div>
+
+            <label><input type="radio" name="eth0-wan-options" value="pppoe" />Spark <span class="populate eth0-pppoe-addr">Gateway: <span class="value">!92.168.71.253</span></span></label>
+                </div>
+            </div>
+        </div>
+</fieldset>
